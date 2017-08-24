@@ -1,0 +1,1218 @@
+/*------------------------------------------------------------------
+Template - Best - App Landing Pages
+
+Author: arivndaenvato_12
+website : wwww.bestdesignstudio.in
+Date: May 2017
+Version: 1.0
+
+[Table of contents]
+
+1- fonts      
+2- Body 
+3- Buttons    
+4- header   
+5- bannner style
+6- Features
+7- how it works
+8- more features
+9-  Download app
+10- screenshots
+11- faq section
+12- Team section
+13- Testimonial
+14- Pricing
+15- App fact section
+16- video section 
+17- blog section
+18- Contact section
+19- Newsletter section 
+20- fooeter
+21. preloader
+
+-------------------------------------------------------------------*/
+
+/*==================================================================*/
+/*                                1. fonts                            */
+/*==================================================================*/
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/fonts/roboto-bold-webfont.eot?v=4.6.3');
+  src: url('../fonts/fonts/roboto-bold-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+       url('../fonts/fonts/roboto-bold-webfont.woff2?v=4.6.3') format('woff2'), 
+       url('../fonts/fonts/roboto-bold-webfont.woff?v=4.6.3') format('woff'), 
+       url('../fonts/fonts/roboto-bold-webfont.ttf?v=4.6.3') format('truetype'), 
+       url('../fonts/fonts/roboto-bold-webfont.svg?v=4.6.3#robotobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/fonts/roboto-regular-webfont.eot?v=4.6.3');
+  src: url('../fonts/fonts/roboto-regular-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+       url('../fonts/fonts/roboto-regular-webfont.woff2?v=4.6.3') format('woff2'), 
+       url('../fonts/fonts/roboto-regular-webfont.woff?v=4.6.3') format('woff'), 
+       url('../fonts/fonts/roboto-regular-webfont.ttf?v=4.6.3') format('truetype'), 
+       url('../fonts/fonts/roboto-regular-webfont.svg?v=4.6.3#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*==================================*/
+
+
+/*==================================================================*/
+/*                                 2. Body                          */
+/*==================================================================*/
+*,body{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+    font-family: 'robotoregular';
+    overflow-x: hidden;
+}
+p,span,li,a{
+  font-family: 'robotoregular';
+
+}
+h1,h2,h3,h4,h5{
+  font-family: 'robotobold';
+}
+p {
+  color: #8b8b8b;
+}
+.clear{
+  clear:both;
+}
+a,a:hover{
+  text-decoration: none;
+}
+a{
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+}
+
+/*==================================================================*/
+/*                                3. Buttons                        */
+/*==================================================================*/
+
+.btn-default {
+  background: #fd5501 none repeat scroll 0 0;
+  border: 1px solid #fd5501;
+  border-radius: 25px;
+  color: #fff;
+  padding: 12px 45px;
+  transition:0.3s all;
+  -webkit-transion:0.3s all;
+}
+.org-bg .btn-default {
+  background: #fff none repeat scroll 0 0;
+  color: #fe5500;
+
+}
+.org-bg .btn-default:hover{
+  box-shadow: 0px 0px 14px #D03200;
+  background-color: #fff;
+   color: #fe5500;
+}
+.btn-default:hover{
+  background-color: #e33b00;
+  color: #ffffff;
+  border-color: #e33b00;
+  box-shadow: 0px 0px 4px 3px #cecece;
+}
+.lead {
+  font-size: 16px;
+}
+section {
+  display: block;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.gray-bg {
+  background: #f3f3f3 none repeat scroll 0 0;
+}
+.gray-bg .video-tag a {
+  border-color: #081c48;
+  color: #081c48;
+}
+.gray-bg .single-counter {
+  color: #333;
+}
+.gray-bg .download-option a {
+  border-color: #081c48;
+  color: #081c48;
+}
+.gray-bg .download-option a:hover, 
+.gray-bg .download-option a.active {
+  background-color: #081c48;
+  border-color: #081c48;
+  color: #fff;
+}
+.blue-bg{
+  background-color: #081C48;
+}
+.blue-bg .app-section-title h2,
+.blue-bg .app-section-title p{
+  color: #fff;
+}
+.blue-bg .app-section-title p,
+.blue-bg .app-section-title{
+  margin-bottom: 0px;
+}
+.blue-bg .app-section-title .line{
+  background-color: #fff;
+}
+.org-bg{
+  background-color: #F88700;
+}
+.org-bg .how-content h3,
+.org-bg .how-content p,
+.org-bg .how-content i,
+.org-bg .how-content h6{
+  color: #fff;
+}
+
+.app-section-title {
+  margin: 0 auto 80px;
+  text-align: center;
+  width: 68%;
+}
+.app-section-title h2 {
+  line-height: 24px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+.app-section-title .line {
+  background: #333 none repeat scroll 0 0;
+  display: block;
+  height: 2px;
+  margin: 25px auto 35px;
+  width: 90px;
+}
+.rel{
+  position: relative;
+  overflow: hidden;
+}
+.rel.opa > img{
+  position: absolute;
+  left:0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+.rel > img{
+  position: absolute;
+  left:0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+/*==================================================================*/
+/*                                4. header                         */
+/*==================================================================*/
+.header-logo img {
+  margin-top: 10px;
+  width: 155px;
+}
+.header-narrow {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+}
+.header-narrow.sticky-app-top {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+header .header-btn-collapse-nav {
+  background: #061d47 none repeat scroll 0 0;
+  color: #fff;
+  float: right;
+  margin: 14px 0 0;
+  padding: 2px;
+  display: none;
+}
+header .header-btn-collapse-nav i {
+  font-size: 25px;
+}
+header .header-btn-collapse-nav:hover i,
+header .header-btn-collapse-nav:focus i{
+  color: #fff;
+}
+
+header .header-nav-main {
+  float: right;
+  margin: 12px 0 0;
+  min-height: 45px;
+}
+header .header-column .header-row {
+  clear: right;
+  display: block;
+}
+header .header-nav {
+  display: block !important;
+}
+header .header-nav-main {
+
+  height: auto;
+  margin-top: 5px;
+}
+.header-nav-main a {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+.header-nav-main a{
+  color: #0A112D;
+  transition:0.3s all;
+  -webkit-transition:0.3s all;
+}
+.header-nav-main .nav > li > a {
+  
+  border-bottom: 2px solid transparent;
+  display: block;
+  padding: 20px 15px;
+  position: relative;
+  color: #fff;
+}
+.sticky-app-top .header-nav-main .nav > li > a{
+  color: #333;
+}
+.blog-page-home {
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.blog-page-home a {
+  color: #fff;
+  font-size: 27px;
+}
+.sticky-app-top .blog-page-home a{
+  color: #8E54E9;
+}
+.header-nav-main .nav > li > a:hover,.header-nav-main .nav > li > a.active{
+  border-color: #fff;
+  
+}
+.sticky-app-top  .header-nav-main .nav > li > a.active{
+  border-color: #081C48;
+}
+.header-nav-main a:hover{
+  color: #07B28C;
+}
+.header-narrow {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*================================
+           header end
+
+/*================================
+           5- bannner style 
+==================================*/
+.banner {
+  background-color: #081c48;
+  background-size: cover;
+}
+.banner {
+  display: block;
+  padding-bottom: 45px;
+  padding-top: 70px;
+}
+.banner .best-banner-heading{
+  width: 90%;
+}
+.banner .best-banner-heading h2 {
+  color: #fff;
+  font-family: robotoregular;
+  font-size: 53px;
+  font-weight: normal;
+  line-height: 70px;
+  margin-bottom: 35px;
+  margin-top: 70px;
+  padding-top: 45px;
+}
+.banner .best-banner-heading p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 38px;
+}
+.download-now {
+  margin-top: 70px;
+}
+.download-now a {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 22px;
+  margin-right: 49px;
+  padding: 10px 24px;
+  display: inline-block;
+}
+.download-now a:hover{
+  background-color: #F88700;
+  border-color: #F88700;
+}
+.download-now a i {
+  margin-right: 10px;
+}
+.banner .best-banner-img img {
+  margin-top: 0;
+  position: relative;
+  top: 50px;
+  width: 80%;
+}
+
+/*================================
+           bannner end 
+==================================*/
+
+
+
+/**==================================== 
+          6- Features
+====================================*/
+.left-icon-boxes {
+  text-align: right;
+}
+.feature-box-ico {
+  padding-top: 25px;
+}
+.feature-box-ico .media {
+  background-color: transparent;
+  margin-bottom: 35px;
+  padding: 15px;
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  text-align: center;
+}
+.feature-box-ico .media p{
+  margin-bottom: 0px;
+}
+.feature-box-ico .media:last-child{
+  margin-bottom: 0px;
+}
+.featuers .left.feature-box-ico .media,
+.featuers .right.feature-box-ico .media{
+  position: relative;
+  top: 100px;
+}
+.media-icon {
+  border: 1px solid #081C48;
+  border-radius: 100%;
+  display: inline-block;
+  height: 85px;
+  padding: 5px;
+  width: 85px;
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+}
+.feature-box-ico i {
+  border-radius: 100%;
+  color: #081C48;
+  display: inline-block;
+  font-size: 35px;
+  height: 100%;
+  line-height: 70px;
+  text-align: center;
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  width: 100%;
+}
+.feature-box-ico .media > h5 {
+  font-size: 19px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+}
+.feature-box-ico .media:hover .media-icon{
+  border-color: #F88700;
+  box-shadow: 0px 0px 6px 1px #b9b9b9;
+}
+.feature-box-ico .media:hover .media-icon i{
+    background-color: #F88700;
+    color: #fff;
+}
+.feature-box-ico .media:hover h5{
+  color: #F88700;
+}
+.features-image-large {
+  text-align: center;
+}
+.features-image-large img {
+  display: inline-block;
+  margin-top: 30px;
+}
+/**==================================== 
+          Features end
+====================================*/
+
+/**==================================== 
+         7- how it works
+====================================*/
+.how-content {
+  color: #fff;
+}
+.how-content > h3 {
+  color: #333;
+  font-size: 27px;
+}
+.how-content > p {
+  color: #b9b9b9;
+  font-size: 17px;
+}
+.how-content ul.how-list {
+  list-style: outside none none;
+  margin-top: 40px;
+}
+.how-content ul.how-list li {
+  margin-bottom: 40px;
+}
+.how-content ul.how-list li:last-child{
+  margin-bottom: 0px;
+}
+.how-content ul.how-list i {
+  float: left;
+  font-size: 40px;
+  line-height: 40px;
+  width: 40px;
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  color: #333;
+}
+.how-content ul.how-list .list {
+  padding-left: 58px;
+}
+.how-content ul.how-list .list h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 0;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  color: #333;
+}
+.how-content ul.how-list li:hover > i,
+.how-content ul.how-list li:hover .list h6{
+  color: #F88700;
+}
+
+.how-content ul.how-list .list p {
+  color: #898989;
+  line-height: 25px;
+}
+.how-img img {
+  margin: 0 auto;
+  width: 83%;
+}
+
+
+/**==================================== 
+         how it works end
+====================================*/
+
+
+/**==================================== 
+         8- more features
+====================================*/
+.more-featuers .left-icon-boxes .media{
+  text-align: right;
+}
+.more-featuers .right-icon-boxes .media{
+  text-align: left;
+}
+.more-featuers .left-icon-boxes .media.shift{
+  padding-right: 80px;
+}
+.more-featuers .right-icon-boxes .media.shift{
+  padding-left: 80px;
+}
+/**==================================== 
+         more features end
+====================================*/
+
+/**==================================== 
+         9-  Download app
+====================================*/
+.sec-get-app .app-section-title {
+  margin-bottom: 80px;
+}
+.download-option {
+  padding-bottom: 45px;
+  padding-top: 0;
+  text-align: center;
+}
+.download-option a {
+  border: 2px solid #fff;
+  border-radius: 45px;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px 40px;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+}
+.download-option a.active, 
+.download-option a:hover {
+  background-color: #f88700;
+  border-color: #f88700;
+  color: #fff;
+  text-decoration: none;
+}
+.download-option a i {
+  font-size: 23px;
+  margin-right: 13px;
+}
+.sec-get-app .get-app-mockup {
+  display: block;
+  margin: 50px auto 0;
+  width: 60%;
+}
+/**==================================== 
+          Download app end
+====================================*/
+
+
+
+/**==================================== 
+          10- screenshots
+====================================*/
+.screenshots-wrap .item-wrap {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.screenshots-wrap .item-wrap img{
+  width: 100%;
+}
+/**==================================== 
+          screenshots end
+====================================*/
+
+/**==================================== 
+          11- faq section
+====================================*/
+.faq-content {
+  padding-top: 30px;
+}
+.accordion-faq .question {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 34px;
+  list-style: outside none none;
+  margin-bottom: 13px;
+  padding: 5px 15px;
+}
+.accordion-faq .question::after {
+  background: #546480 none repeat scroll 0 0;
+  border-radius: 100%;
+  content: '\f067';
+  float: right;
+  font-family: fontawesome;
+  font-size: 11px;
+  height: 17px;
+  line-height: 17px;
+  margin-top: 8px;
+  text-align: center;
+  width: 17px;
+  color: #fff;
+}
+.accordion-faq .question.current::after{
+  content: '\f068';
+}
+.accordion-faq .pane {
+  background: #fff none repeat scroll 0 0;
+  color: #fff;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+}
+.accordion-faq .pane p {
+  color: #929292;
+  line-height: 26px;
+}
+.faq-image img {
+  margin: 0 auto;
+  width: 80%;
+}
+/**==================================== 
+          faq section end
+====================================*/
+
+/**==================================== 
+          12- Team section
+====================================*/
+.team-wrapper {
+  border: 1px solid #dfdfdf;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+}
+.team-wrapper:hover{
+
+}
+.team-wrapper .info {
+  padding: 10px;
+  text-align: center;
+}
+.team-wrapper .info span{
+  display: block;
+}
+.team-wrapper .info span.name {
+  color: #6a6a6a;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.team-wrapper .info span.post {
+  font-size: 15px;
+}
+.social_m {
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  margin-top: 12px;
+  position: relative;
+}
+.social_m a {
+  background: #081c48 none repeat scroll 0 0;
+  border: 1px solid #081c48;
+  color: #fff;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 2px;
+  margin-right: 2px;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  width: 35px;
+}
+.social_m a:hover{
+  background-color: #F88700;
+  border-color: #F88700;
+}
+/**==================================== 
+          Team section end
+====================================*/
+
+/**==================================== 
+          13- Testimonial
+====================================*/
+.client-message {
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+}
+.client-message > img {
+  border-radius: 50px;
+  position: relative;
+  top: 32px;
+}
+.client-message .message {
+  background: #fff none repeat scroll 0 0;
+  padding: 45px 10px 10px;
+}
+.message .about-client span {
+  font-style: italic;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.message .about-client span.post::after {
+  content: ")";
+}
+.message .about-client span.post::before {
+  content: "(";
+}
+
+/**==================================== 
+          Testimonial end
+====================================*/
+
+/**==================================== 
+          14- Pricing 
+====================================*/
+
+.sec-pricing h2 {
+  margin-top: 13px;
+}
+
+.sec-pricing [class^="col-"] {
+  padding-top: 21px;
+}
+
+.sec-pricing .wrapper {
+  border: 1px solid #e1e1e1;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+.sec-pricing .wrapper h1 {
+  color: #081c48;
+  font-weight: 700;
+}
+
+.sec-pricing .wrapper h3 {
+  color: #081c48;
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+.sec-pricing .wrapper h3 + hr{
+  margin-top: 0px;
+}
+.sec-pricing .wrapper p {
+  line-height: 2.4375;
+  font-weight: 400;
+  font-size: 16px;
+  color: #606060;
+  opacity: 0.7;
+}
+.sec-pricing .wrapper h1 {
+  margin-top: 24px;
+  font-size: 72px;
+}
+.sec-pricing .wrapper h1::before,
+.sec-pricing .wrapper h1::after {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.sec-pricing .wrapper h1::before {
+  content: '$';
+}
+.sec-pricing .wrapper h1::after {
+  content: '/mo';
+}
+.sec-pricing .wrapper h1 + hr {
+  margin-bottom: 0;
+  margin-top: 36px;
+}
+.sec-pricing .wrapper a {
+  background-color: #ffffff;
+  border: 2px solid #081c48;
+  border-radius: 25px;
+  color: #081c48;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  transition: all 0.25s ease 0s; 
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  width: 220px;
+  z-index: 0;
+}
+.sec-pricing .wrapper a:hover{
+  background-color: #081c48;
+  color: #fff !important;
+  border-color: #081c48;
+  text-decoration: none;
+}
+.sec-pricing .highlighted {
+  padding-top: 0;
+}
+.sec-pricing .highlighted .wrapper {
+  border-color: #dbdbdb;
+  padding-bottom: 0;
+  position: relative;
+}
+.sec-pricing .highlighted .wrapper p {
+  opacity: 1;
+  color: #666666;
+}
+/*.sec-pricing .highlighted .wrapper a {
+  color: #4776e6;
+}*/
+.sec-pricing.solid .wrapper h3,
+.sec-pricing.solid [class^="col-"] .wrapper h1 {
+  color: #725ce6;
+}
+.sec-pricing.solid .wrapper a {
+  background-image: none;
+  background-color: #725ce6;
+  color: #725ce6;
+}
+.sec-pricing.solid .highlighted .wrapper::after {
+  background-color: #725ce6;
+}
+.sec-pricing .highlighted .wrapper a {
+  border-color: #081c48;
+  color: #081c48;
+}
+.sec-pricing .highlighted .wrapper h1 {
+  color: #081c48;
+}
+.sec-pricing .highlighted .wrapper h3 {
+  background: #081c48 none repeat scroll 0 0;
+  color: #fff;
+}
+/**==================================== 
+         end  Pricing 
+====================================*/
+
+/**==================================== 
+          15- App fact section
+====================================*/
+.single-counter {
+  color: #081C48;
+}
+.app-fact .single-counter i {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.counter-number {
+  font-size: 16px;
+}
+.app-fact .single-counter {
+  border-right: 1px solid #081c48;
+}
+.app-fact div[class^="col-"]:last-child .single-counter {
+  border-right: medium none;
+}
+/**==================================== 
+          App fact section end
+====================================*/
+
+
+/**==================================== 
+         16-  video section 
+====================================*/
+.video-section.gray-bg .app-section-title {
+  margin-bottom: 0;
+}
+.video-tag a {
+  border: 2px solid #f88700;
+  border-radius: 100%;
+  color: #f88700;
+  display: block;
+  font-size: 35px;
+  height: 65px;
+  line-height: 65px;
+  margin: 0 auto 40px;
+  text-align: center;
+  width: 65px;
+}
+
+/**==================================== 
+          video section end 
+====================================*/
+
+
+
+/**==================================== 
+          17- blog section  
+====================================*/
+.blog-item-wrap {
+  border: 1px solid #eeeeee;
+}
+.blog-item-wrap .blog-content {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.blog-item-wrap .blog-title a {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+.blog-item-wrap .blog-content p {
+  font-size: 16px;
+}
+.blog-item-wrap .blog-content > a {
+  background: #081c48 none repeat scroll 0 0;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 15px;
+}
+
+.blog-item-wrap .blog-content > a:hover{
+  text-decoration: none;
+  background-color: #F88700;
+}
+
+/**==================================== 
+          blog section end 
+====================================*/
+
+
+
+/**==================================== 
+          18- Contact section
+====================================*/
+.contact.gray-bg {
+  padding-bottom: 55px;
+}
+.contact-form input {
+  border: 1px solid #acacac;
+  border-radius: 2px;
+  height: 44px;
+  padding: 8px;
+  width: 100%;
+  background-color: transparent;
+}
+.contact-form textarea {
+  border: 1px solid #acacac;
+  border-radius: 2px;
+  height: 100px;
+  margin-top: 45px;
+  width: 100%;
+  padding:8px;
+  margin-bottom: 45px;
+  background-color: transparent;
+}
+.contact-form .button-set{
+  text-align: center;
+}
+.contact-form .button-set input {
+  background: #081C48;
+  border: 1px solid #081C48;
+  border-radius: 45px;
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+}
+
+/**==================================== 
+          Contact section end
+====================================*/
+
+
+/**==================================== 
+          19- Newsletter section 
+====================================*/
+.contact-wrapper {
+  border: 1px solid #081c48;
+  font-size: 17px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact-wrapper i {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contact-wrapper p {
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+.newsletter{
+  padding:0px;
+}
+.subscription {
+  background: #8e54e9 none repeat scroll 0 0;
+  border-radius: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  top: 30px;
+  width: 45%;
+}
+.subscription .form-group {
+  width: 100%;
+}
+.subscription input {
+  border-color: #081c48;
+  border-radius: 30px;
+  height: 60px;
+  padding-right: 150px;
+  width: 100% !important;
+}
+.subscription button {
+  background: #081c48 none repeat scroll 0 0;
+  border: 1px solid #081c48;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  height: 50px;
+  line-height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+
+/**==================================== 
+          Newsletter section end 
+====================================*/
+
+
+
+
+/**==================================== 
+          20- fooeter 
+====================================*/
+.primary-footer.brand-bg {
+  padding-bottom: 45px;
+  padding-top: 75px;
+}
+
+footer  .social-link li{
+  display: inline-block;
+}
+footer .social-link li a {
+  background-color: #fff;
+  border-radius: 100%;
+  color: #081c48;
+  display: block;
+  font-size: 22px;
+  height: 45px;
+  line-height: 45px;
+  width: 45px;
+}
+footer {
+  background: #081c48 none repeat scroll 0 0;
+}
+
+.secondary-footer{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.secondary-footer a{
+  color: #fff;
+}
+/**==================================== 
+          fooeter  end
+====================================*/
+
+/*==============================*/
+/*          21. preloader           */
+/*==============================*/
+    
+#loading{
+  background-color: #081C48;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  margin-top: 0px;
+  top: 0px;
+}
+#loading-center{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  }
+#loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 20px;
+  width: 100px;
+  margin-top: -10px;
+  margin-left: -50px;
+
+}
+.object{
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: absolute; 
+}
+#object_one{
+  -webkit-animation: object 2s linear infinite;
+   animation: object 2s linear infinite;
+}
+#object_two{ 
+  -webkit-animation: object 2s linear infinite -.4s;
+  animation: object 2s linear infinite -.4s;
+  left: 20px;
+   }
+#object_three{ 
+  -webkit-animation: object 2s linear infinite -.8s; 
+  animation: object 2s linear infinite -.8s; 
+  left: 40px;
+  }
+#object_four{ 
+  -webkit-animation: object 2s linear infinite -1.2s;
+  animation: object 2s linear infinite -1.2s; 
+  left: 60px;
+  } 
+#object_five{ 
+  -webkit-animation: object 2s linear infinite -1.6s; 
+  animation: object 2s linear infinite -1.6s; 
+  left: 80px;
+}
+  
+  
+@-webkit-keyframes object{
+  0% { left: 100px; top:0}
+  80% { left: 0; top:0;}
+  85% { left: 0; top: -20px; width: 20px; height: 20px;}
+  90% { width: 40px; height: 15px; }
+  95% { left: 100px; top: -20px; width: 20px; height: 20px;}
+  100% { left: 100px; top:0; }    
+  
+}   
+@keyframes object{
+  0% { left: 100px; top:0}
+  80% { left: 0; top:0;}
+  85% { left: 0; top: -20px; width: 20px; height: 20px;}
+  90% { width: 40px; height: 15px; }
+  95% { left: 100px; top: -20px; width: 20px; height: 20px;}
+  100% { left: 100px; top:0; }
+}
+

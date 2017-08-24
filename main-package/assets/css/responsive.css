@@ -1,0 +1,272 @@
+/*========================================================================*/
+/*********---------------------------------------------------------------
+Template - One page HTML Design 
+
+Author: arivndaenvato_12
+Date: December 2016
+Version: 1.0
+/***************************** media query ********************************/
+/*========================================================================*/
+
+@media (max-width: 991px){
+	section {
+	  padding-bottom: 50px;
+	  padding-top: 50px;
+	}
+	.header-nav-main .nav > li > a {
+	  padding: 20px 5px;
+	}
+	.banner .best-banner-heading {
+	  text-align: center;
+	  width: 100%;
+	}
+	.banner .best-banner-heading h2 {
+	  font-size: 45px;
+	  margin-bottom: 35px;
+	  margin-top: 35px;
+	  padding-top: 30px;
+	}
+	.home_btn a {
+	  font-size: 15px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	}
+	.banner .best-banner-img img {
+	  margin: 50px auto 0;
+	  position: static;
+	  width: 340px;
+	}
+
+	.more-featuers .flex-box {
+	  display: none;
+	}
+	.feature-box-ico::after {
+	  clear: both;
+	  content: "";
+	  display: table;
+	}
+	.more-featuers .feature-box-ico .media {
+	  float: left;
+	  margin-bottom: 40px;
+	  margin-top: 0;
+	  padding-bottom: 0;
+	  padding-left: 10px !important;
+	  padding-top: 0;
+	  text-align: center !important;
+	  padding-right: 10px !important;
+	  width: 33%;
+	}
+	.media-icon {
+	  height: 60px;
+	  width: 60px;
+	}
+	.feature-box-ico i {
+	  font-size: 25px;
+	  line-height: 49px;
+	}
+	.more-featuers .right-icon-boxes .media {
+	  margin-bottom: 0;
+	}
+	.faq-image img {
+	  margin: 50px auto 0;
+	  width: 400px;
+	}
+	.team-wrapper {
+	  margin-bottom: 15px;
+	  margin-top: 15px;
+	}
+	.sec-pricing .wrapper h3 {
+	  font-size: 25px;
+	  padding-bottom: 15px;
+	  padding-top: 15px;
+	}
+	.sec-pricing .wrapper h1 {
+	  font-size: 40px;
+	}
+	.sec-pricing .wrapper a {
+	  line-height: 35px;
+	  width: 140px;
+	}
+	.blog-item-wrap {
+	  margin: 0 auto 35px;
+	  width: 400px;
+	}
+	.blog-inner-wrap div[class^="col-"]:last-child .blog-item-wrap {
+	  margin-bottom: 0;
+	}
+	.app-fact .single-counter{
+		border:none;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px){
+	.md-mb{
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 767px){
+	.header-logo img {
+	  margin-bottom: 7px;
+	  margin-top: 7px;
+	}
+	.header-nav-main {
+	  background: #fff none repeat scroll 0 0;
+	  color: #333;
+	  height: 100% !important;
+	  top: 0px;
+	  left: -250px;
+	  display: block;
+	  overflow-y: scroll;
+	  position: fixed;
+	  width: 250px;
+	  z-index: 99999;
+	  transition: 0.2s all;
+	  -webkit-transition: 0.2s all;
+	  -o-transition: 0.2s all;
+	  -ms-transition: 0.2s all;
+	  -moz-transition: 0.2s all;
+	}
+	.header-nav-main.in{
+		left: 0px;
+	}
+	.header-nav-main .nav li {
+	  color: #333;
+	  float: none;
+	  width: 100%;
+	}
+	.sticky-app-top .header-nav-main .nav > li > a ,
+	.header-nav-main .nav > li > a{
+	  color: #333;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+	header .header-btn-collapse-nav{
+		display: block;
+	}
+	.header-nav-main{
+		/*display: none;*/
+	}
+	.banner .best-banner-heading h2 {
+	  font-size: 30px;
+	  line-height: 50px;
+	  margin-bottom: 20px;
+	  margin-top: 10px;
+	  padding-top: 25px;
+	}
+	.banner .best-banner-img img {
+	  width: 230px;
+	}
+	.feature-box-ico .media {
+	  margin: 0 auto;
+	  position: static !important;
+	  width: 400px;
+	}
+	.how-img img {
+	  width: 300px;
+	}
+	.feature-box-ico {
+	  padding-top: 0;
+	}
+	.more-featuers .feature-box-ico .media {
+	  float: none;
+	  margin: 0 auto 40px;
+	  width: 400px;
+	}
+	.more-featuers div[class^="col-"]:last-child .media:last-child {
+	  margin-bottom: 0;
+	}
+	.download-option a {
+	  font-size: 15px;
+	  padding: 10px 20px;
+	}
+	.download-option a i {
+	  font-size: 15px;
+	}
+	.team-wrapper {
+	  margin: 20px auto;
+	  width: 250px;
+	}
+	.sec-team div[class^="col-"]:last-child .team-wrapper {
+	  margin-bottom: 0;
+	}
+	.sec-pricing .wrapper {
+	  margin: 15px auto;
+	  width: 350px;
+	}
+	.sec-pricing [class^="col-"]{
+		padding-top: 0px;
+	}
+	.sec-pricing [class^="col-"]:last-child .wrapper{
+		margin-bottom: 0px;
+	}
+	.md-mb{
+		margin-bottom: 35px;
+	}
+	.subscription {
+	 
+	  width: 400px;
+	}
+	.subscription .form-group{
+		margin-bottom: 0px;
+	}
+	.contact-form input {
+	  margin-bottom: 40px;
+	}
+	.contact-form textarea{
+		margin-top: 0px;
+	}
+}
+@media (max-width: 550px){
+	.home_btn a {
+	  font-size: 12px;
+	  margin-left: 5px;
+	  margin-right: 5px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+	.app-section-title {
+	  width: 100%;
+	}
+	.app-section-title h2 {
+	  font-size: 20px;
+	}
+	.app-section-title .line {
+	  margin: 15px auto;
+	}
+	.sec-get-app .get-app-mockup {
+	  width: 100%;
+	}
+	.download-option a {
+	  margin-left: 3px;
+	  margin-right: 3px;
+	}
+}
+@media (max-width: 450px){
+	.feature-box-ico .media {
+	  padding-left: 0;
+	  padding-right: 0;
+	  width: 100%;
+	}
+	.more-featuers .feature-box-ico .media,
+	.sec-pricing .wrapper,
+	.blog-item-wrap{
+		width: 100%;
+	}
+	.download-option a {
+	  display: block;
+	  font-size: 17px;
+	  margin: 10px auto;
+	  width: 200px;
+	}
+	.download-option a i {
+	  font-size: 22px;
+	}
+	.subscription {
+	  width: 100%;
+	}
+}
+@media (max-width: 320px){
+	.team-wrapper {
+	  width: 100%;
+	}
+}
