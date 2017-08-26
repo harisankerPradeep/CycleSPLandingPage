@@ -8,10 +8,10 @@ Version: 1.0
 
 [Table of contents]
 
-1- fonts      
-2- Body 
-3- Buttons    
-4- header   
+1- fonts
+2- Body
+3- Buttons
+4- header
 5- bannner style
 6- Features
 7- how it works
@@ -23,10 +23,10 @@ Version: 1.0
 13- Testimonial
 14- Pricing
 15- App fact section
-16- video section 
+16- video section
 17- blog section
 18- Contact section
-19- Newsletter section 
+19- Newsletter section
 20- fooeter
 21. preloader
 
@@ -40,9 +40,9 @@ Version: 1.0
   font-family: 'robotobold';
   src: url('../fonts/fonts/roboto-bold-webfont.eot?v=4.6.3');
   src: url('../fonts/fonts/roboto-bold-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
-       url('../fonts/fonts/roboto-bold-webfont.woff2?v=4.6.3') format('woff2'), 
-       url('../fonts/fonts/roboto-bold-webfont.woff?v=4.6.3') format('woff'), 
-       url('../fonts/fonts/roboto-bold-webfont.ttf?v=4.6.3') format('truetype'), 
+       url('../fonts/fonts/roboto-bold-webfont.woff2?v=4.6.3') format('woff2'),
+       url('../fonts/fonts/roboto-bold-webfont.woff?v=4.6.3') format('woff'),
+       url('../fonts/fonts/roboto-bold-webfont.ttf?v=4.6.3') format('truetype'),
        url('../fonts/fonts/roboto-bold-webfont.svg?v=4.6.3#robotobold') format('svg');
   font-weight: bold;
   font-style: normal;
@@ -51,9 +51,9 @@ Version: 1.0
   font-family: 'robotoregular';
   src: url('../fonts/fonts/roboto-regular-webfont.eot?v=4.6.3');
   src: url('../fonts/fonts/roboto-regular-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
-       url('../fonts/fonts/roboto-regular-webfont.woff2?v=4.6.3') format('woff2'), 
-       url('../fonts/fonts/roboto-regular-webfont.woff?v=4.6.3') format('woff'), 
-       url('../fonts/fonts/roboto-regular-webfont.ttf?v=4.6.3') format('truetype'), 
+       url('../fonts/fonts/roboto-regular-webfont.woff2?v=4.6.3') format('woff2'),
+       url('../fonts/fonts/roboto-regular-webfont.woff?v=4.6.3') format('woff'),
+       url('../fonts/fonts/roboto-regular-webfont.ttf?v=4.6.3') format('truetype'),
        url('../fonts/fonts/roboto-regular-webfont.svg?v=4.6.3#robotoregular') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -117,7 +117,7 @@ a{
 }
 .org-bg .btn-default:hover{
   box-shadow: 0px 0px 14px #D03200;
-  background-color: #fff;
+  background-color: #e67e22;
    color: #fe5500;
 }
 .btn-default:hover{
@@ -138,24 +138,24 @@ section {
   background: #f3f3f3 none repeat scroll 0 0;
 }
 .gray-bg .video-tag a {
-  border-color: #081c48;
-  color: #081c48;
+  border-color: #2c3e50;
+  color: #2c3e50;
 }
 .gray-bg .single-counter {
   color: #333;
 }
 .gray-bg .download-option a {
-  border-color: #081c48;
-  color: #081c48;
+  border-color: #2c3e50;
+  color: #2c3e50;
 }
-.gray-bg .download-option a:hover, 
+.gray-bg .download-option a:hover,
 .gray-bg .download-option a.active {
-  background-color: #081c48;
-  border-color: #081c48;
+  background-color: #e67e22;
+  border-color:#e67e22;
   color: #fff;
 }
 .blue-bg{
-  background-color: #081C48;
+  background-color: #2c3e50;
 }
 .blue-bg .app-section-title h2,
 .blue-bg .app-section-title p{
@@ -280,7 +280,7 @@ header .header-nav-main {
   -webkit-transition:0.3s all;
 }
 .header-nav-main .nav > li > a {
-  
+
   border-bottom: 2px solid transparent;
   display: block;
   padding: 20px 15px;
@@ -303,10 +303,10 @@ header .header-nav-main {
 }
 .header-nav-main .nav > li > a:hover,.header-nav-main .nav > li > a.active{
   border-color: #fff;
-  
+
 }
 .sticky-app-top  .header-nav-main .nav > li > a.active{
-  border-color: #081C48;
+  border-color: #2c3e50;
 }
 .header-nav-main a:hover{
   color: #07B28C;
@@ -323,10 +323,10 @@ header .header-nav-main {
            header end
 
 /*================================
-           5- bannner style 
+           5- bannner style
 ==================================*/
 .banner {
-  background-color: #081c48;
+  background-color: #fff;
   background-size: cover;
 }
 .banner {
@@ -338,7 +338,7 @@ header .header-nav-main {
   width: 90%;
 }
 .banner .best-banner-heading h2 {
-  color: #fff;
+  color: #F1C40F;
   font-family: robotoregular;
   font-size: 53px;
   font-weight: normal;
@@ -348,7 +348,7 @@ header .header-nav-main {
   padding-top: 45px;
 }
 .banner .best-banner-heading p {
-  color: #fff;
+  color: #F1C40F;
   font-size: 20px;
   margin-bottom: 38px;
 }
@@ -379,12 +379,12 @@ header .header-nav-main {
 }
 
 /*================================
-           bannner end 
+           bannner end
 ==================================*/
 
 
 
-/**==================================== 
+/**====================================
           6- Features
 ====================================*/
 .left-icon-boxes {
@@ -416,7 +416,7 @@ header .header-nav-main {
   top: 100px;
 }
 .media-icon {
-  border: 1px solid #081C48;
+  border: 1px solid #2c3e50;
   border-radius: 100%;
   display: inline-block;
   height: 85px;
@@ -430,7 +430,7 @@ header .header-nav-main {
 }
 .feature-box-ico i {
   border-radius: 100%;
-  color: #081C48;
+  color: #2c3e50;
   display: inline-block;
   font-size: 35px;
   height: 100%;
@@ -471,11 +471,11 @@ header .header-nav-main {
   display: inline-block;
   margin-top: 30px;
 }
-/**==================================== 
+/**====================================
           Features end
 ====================================*/
 
-/**==================================== 
+/**====================================
          7- how it works
 ====================================*/
 .how-content {
@@ -540,12 +540,12 @@ header .header-nav-main {
 }
 
 
-/**==================================== 
+/**====================================
          how it works end
 ====================================*/
 
 
-/**==================================== 
+/**====================================
          8- more features
 ====================================*/
 .more-featuers .left-icon-boxes .media{
@@ -560,11 +560,11 @@ header .header-nav-main {
 .more-featuers .right-icon-boxes .media.shift{
   padding-left: 80px;
 }
-/**==================================== 
+/**====================================
          more features end
 ====================================*/
 
-/**==================================== 
+/**====================================
          9-  Download app
 ====================================*/
 .sec-get-app .app-section-title {
@@ -589,7 +589,7 @@ header .header-nav-main {
   -ms-transition: 0.3s all;
   -moz-transition: 0.3s all;
 }
-.download-option a.active, 
+.download-option a.active,
 .download-option a:hover {
   background-color: #f88700;
   border-color: #f88700;
@@ -605,13 +605,13 @@ header .header-nav-main {
   margin: 50px auto 0;
   width: 60%;
 }
-/**==================================== 
+/**====================================
           Download app end
 ====================================*/
 
 
 
-/**==================================== 
+/**====================================
           10- screenshots
 ====================================*/
 .screenshots-wrap .item-wrap {
@@ -621,11 +621,11 @@ header .header-nav-main {
 .screenshots-wrap .item-wrap img{
   width: 100%;
 }
-/**==================================== 
+/**====================================
           screenshots end
 ====================================*/
 
-/**==================================== 
+/**====================================
           11- faq section
 ====================================*/
 .faq-content {
@@ -672,11 +672,11 @@ header .header-nav-main {
   margin: 0 auto;
   width: 80%;
 }
-/**==================================== 
+/**====================================
           faq section end
 ====================================*/
 
-/**==================================== 
+/**====================================
           12- Team section
 ====================================*/
 .team-wrapper {
@@ -713,8 +713,8 @@ header .header-nav-main {
   position: relative;
 }
 .social_m a {
-  background: #081c48 none repeat scroll 0 0;
-  border: 1px solid #081c48;
+  background: #2c3e50 none repeat scroll 0 0;
+  border: 1px solid #2c3e50;
   color: #fff;
   display: inline-block;
   height: 35px;
@@ -731,11 +731,11 @@ header .header-nav-main {
   background-color: #F88700;
   border-color: #F88700;
 }
-/**==================================== 
+/**====================================
           Team section end
 ====================================*/
 
-/**==================================== 
+/**====================================
           13- Testimonial
 ====================================*/
 .client-message {
@@ -764,12 +764,12 @@ header .header-nav-main {
   content: "(";
 }
 
-/**==================================== 
+/**====================================
           Testimonial end
 ====================================*/
 
-/**==================================== 
-          14- Pricing 
+/**====================================
+          14- Pricing
 ====================================*/
 
 .sec-pricing h2 {
@@ -790,12 +790,12 @@ header .header-nav-main {
   text-align: center;
 }
 .sec-pricing .wrapper h1 {
-  color: #081c48;
+  color: #2c3e50;
   font-weight: 700;
 }
 
 .sec-pricing .wrapper h3 {
-  color: #081c48;
+  color: #2c3e50;
   font-size: 35px;
   margin: 0;
   padding-bottom: 25px;
@@ -834,16 +834,16 @@ header .header-nav-main {
 }
 .sec-pricing .wrapper a {
   background-color: #ffffff;
-  border: 2px solid #081c48;
+  border: 2px solid #2c3e50;
   border-radius: 25px;
-  color: #081c48;
+  color: #2c3e50;
   display: inline-block;
   font-size: 16px;
   line-height: 50px;
   margin-bottom: 20px;
   margin-top: 20px;
   position: relative;
-  transition: all 0.25s ease 0s; 
+  transition: all 0.25s ease 0s;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
@@ -853,9 +853,9 @@ header .header-nav-main {
   z-index: 0;
 }
 .sec-pricing .wrapper a:hover{
-  background-color: #081c48;
+  background-color: #e67e22;
   color: #fff !important;
-  border-color: #081c48;
+  border-color: #e67e22;
   text-decoration: none;
 }
 .sec-pricing .highlighted {
@@ -886,25 +886,29 @@ header .header-nav-main {
   background-color: #725ce6;
 }
 .sec-pricing .highlighted .wrapper a {
-  border-color: #081c48;
-  color: #081c48;
+  border-color: #2c3e50;
+  color: #2c3e50;
+}
+.sec-pricing .highlighted .wrapper a:hover {
+  border-color: #fff;
+  color: #2c3e50;
 }
 .sec-pricing .highlighted .wrapper h1 {
-  color: #081c48;
+  color: #2c3e50;
 }
 .sec-pricing .highlighted .wrapper h3 {
-  background: #081c48 none repeat scroll 0 0;
+  background: #2c3e50 none repeat scroll 0 0;
   color: #fff;
 }
-/**==================================== 
-         end  Pricing 
+/**====================================
+         end  Pricing
 ====================================*/
 
-/**==================================== 
+/**====================================
           15- App fact section
 ====================================*/
 .single-counter {
-  color: #081C48;
+  color: #2c3e50;
 }
 .app-fact .single-counter i {
   font-size: 30px;
@@ -914,18 +918,18 @@ header .header-nav-main {
   font-size: 16px;
 }
 .app-fact .single-counter {
-  border-right: 1px solid #081c48;
+  border-right: 1px solid #2c3e50;
 }
 .app-fact div[class^="col-"]:last-child .single-counter {
   border-right: medium none;
 }
-/**==================================== 
+/**====================================
           App fact section end
 ====================================*/
 
 
-/**==================================== 
-         16-  video section 
+/**====================================
+         16-  video section
 ====================================*/
 .video-section.gray-bg .app-section-title {
   margin-bottom: 0;
@@ -943,14 +947,14 @@ header .header-nav-main {
   width: 65px;
 }
 
-/**==================================== 
-          video section end 
+/**====================================
+          video section end
 ====================================*/
 
 
 
-/**==================================== 
-          17- blog section  
+/**====================================
+          17- blog section
 ====================================*/
 .blog-item-wrap {
   border: 1px solid #eeeeee;
@@ -969,7 +973,7 @@ header .header-nav-main {
   font-size: 16px;
 }
 .blog-item-wrap .blog-content > a {
-  background: #081c48 none repeat scroll 0 0;
+  background: #2c3e50 none repeat scroll 0 0;
   border-radius: 20px;
   color: #fff;
   display: inline-block;
@@ -981,13 +985,13 @@ header .header-nav-main {
   background-color: #F88700;
 }
 
-/**==================================== 
-          blog section end 
+/**====================================
+          blog section end
 ====================================*/
 
 
 
-/**==================================== 
+/**====================================
           18- Contact section
 ====================================*/
 .contact.gray-bg {
@@ -1015,8 +1019,8 @@ header .header-nav-main {
   text-align: center;
 }
 .contact-form .button-set input {
-  background: #081C48;
-  border: 1px solid #081C48;
+  background: #2c3e50;
+  border: 1px solid #2c3e50;
   border-radius: 45px;
   color: #fff;
   display: inline-block;
@@ -1024,16 +1028,16 @@ header .header-nav-main {
   width: 150px;
 }
 
-/**==================================== 
+/**====================================
           Contact section end
 ====================================*/
 
 
-/**==================================== 
-          19- Newsletter section 
+/**====================================
+          19- Newsletter section
 ====================================*/
 .contact-wrapper {
-  border: 1px solid #081c48;
+  border: 1px solid #2c3e50;
   font-size: 17px;
   margin-bottom: 40px;
   padding-bottom: 20px;
@@ -1067,15 +1071,15 @@ header .header-nav-main {
   width: 100%;
 }
 .subscription input {
-  border-color: #081c48;
+  border-color: #2c3e50;
   border-radius: 30px;
   height: 60px;
   padding-right: 150px;
   width: 100% !important;
 }
 .subscription button {
-  background: #081c48 none repeat scroll 0 0;
-  border: 1px solid #081c48;
+  background: #2c3e50 none repeat scroll 0 0;
+  border: 1px solid #2c3e50;
   border-radius: 30px;
   color: #fff;
   font-size: 15px;
@@ -1088,15 +1092,15 @@ header .header-nav-main {
   top: 5px;
 }
 
-/**==================================== 
-          Newsletter section end 
+/**====================================
+          Newsletter section end
 ====================================*/
 
 
 
 
-/**==================================== 
-          20- fooeter 
+/**====================================
+          20- fooeter
 ====================================*/
 .primary-footer.brand-bg {
   padding-bottom: 45px;
@@ -1109,7 +1113,7 @@ footer  .social-link li{
 footer .social-link li a {
   background-color: #fff;
   border-radius: 100%;
-  color: #081c48;
+  color: #2c3e50;
   display: block;
   font-size: 22px;
   height: 45px;
@@ -1117,7 +1121,7 @@ footer .social-link li a {
   width: 45px;
 }
 footer {
-  background: #081c48 none repeat scroll 0 0;
+  background: #2c3e50 none repeat scroll 0 0;
 }
 
 .secondary-footer{
@@ -1129,16 +1133,16 @@ footer {
 .secondary-footer a{
   color: #fff;
 }
-/**==================================== 
+/**====================================
           fooeter  end
 ====================================*/
 
 /*==============================*/
 /*          21. preloader           */
 /*==============================*/
-    
+
 #loading{
-  background-color: #081C48;
+  background-color: #ffffff;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -1164,49 +1168,49 @@ footer {
 .object{
   width: 20px;
   height: 20px;
-  background-color: #FFF;
+  background-color: #F1C40F;
   -moz-border-radius: 50% 50% 50% 50%;
   -webkit-border-radius: 50% 50% 50% 50%;
   border-radius: 50% 50% 50% 50%;
   margin-right: 20px;
   margin-bottom: 20px;
-  position: absolute; 
+  position: absolute;
 }
 #object_one{
   -webkit-animation: object 2s linear infinite;
    animation: object 2s linear infinite;
 }
-#object_two{ 
+#object_two{
   -webkit-animation: object 2s linear infinite -.4s;
   animation: object 2s linear infinite -.4s;
   left: 20px;
    }
-#object_three{ 
-  -webkit-animation: object 2s linear infinite -.8s; 
-  animation: object 2s linear infinite -.8s; 
+#object_three{
+  -webkit-animation: object 2s linear infinite -.8s;
+  animation: object 2s linear infinite -.8s;
   left: 40px;
   }
-#object_four{ 
+#object_four{
   -webkit-animation: object 2s linear infinite -1.2s;
-  animation: object 2s linear infinite -1.2s; 
+  animation: object 2s linear infinite -1.2s;
   left: 60px;
-  } 
-#object_five{ 
-  -webkit-animation: object 2s linear infinite -1.6s; 
-  animation: object 2s linear infinite -1.6s; 
+  }
+#object_five{
+  -webkit-animation: object 2s linear infinite -1.6s;
+  animation: object 2s linear infinite -1.6s;
   left: 80px;
 }
-  
-  
+
+
 @-webkit-keyframes object{
   0% { left: 100px; top:0}
   80% { left: 0; top:0;}
   85% { left: 0; top: -20px; width: 20px; height: 20px;}
   90% { width: 40px; height: 15px; }
   95% { left: 100px; top: -20px; width: 20px; height: 20px;}
-  100% { left: 100px; top:0; }    
-  
-}   
+  100% { left: 100px; top:0; }
+
+}
 @keyframes object{
   0% { left: 100px; top:0}
   80% { left: 0; top:0;}
@@ -1215,4 +1219,3 @@ footer {
   95% { left: 100px; top: -20px; width: 20px; height: 20px;}
   100% { left: 100px; top:0; }
 }
-
