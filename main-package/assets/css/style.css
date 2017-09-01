@@ -82,6 +82,7 @@ h1,h2,h3,h4,h5{
 }
 p {
   color: #8b8b8b;
+  font-size: 19px;
 }
 .clear{
   clear:both;
